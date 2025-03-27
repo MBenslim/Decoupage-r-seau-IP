@@ -2,7 +2,7 @@
 
 Symétrique :
                                         64 qui fait 26 
-sous réseau pole informatique (50) : 2²6 64 -> 62adresse ip CIDR -> /26 / +62
+sous réseau pole informatique (50) : 2²6 64 -> 62adresse ip CIDR -> /26 / +64
 
 Adresse de réseau : 172.16.1.0/26
 Début de plage IP disponible : 172.16.1.1
