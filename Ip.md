@@ -1,0 +1,64 @@
+172.16.1.0/24
+
+Symétrique :
+                                        64 qui fait 26 
+sous réseau pole informatique (50) : 2²6 64 -> 62adresse ip CIDR -> /26 / +62
+
+Adresse de réseau : 172.16.1.0/26
+Début de plage IP disponible : 172.16.1.1
+Fin de plage IP disponible : 172.16.1.62
+Adresse de broadcast : 172.16.1.63
+
+sous réseau pole développement (12):
+
+Adresse de réseau : 172.16.1.64/26
+Début de plage IP disponible : 172.16.1.65
+Fin de plage IP disponible : 172.16.1.128
+Adresse de broadcast : 172.16.1.129
+
+
+sous réseau pole administratif (20): 
+
+Adresse de réseau : 172.16.1.129/26
+Début de plage IP disponible : 172.16.1.130
+Fin de la plage IP disponible : 172.16.1.191
+Adresse de broadcast : 172.16.1.192
+
+sous réseau pole technicien (15):
+
+Adresse de réseau : 172.16.1.193/26
+Début de plage IP disponible : 172.16.1.194
+Fin de la plage IP disponible : 172.16.1.254
+Adresse de broadcast : 172.16.1.255
+
+asymétrique : 
+
+sous réseau pole informatique (50) : 2²6 - 2 = 64 - 2 = 62
+
+Adresse de réseau : 172.16.1.0/26
+Début de plage IP disponible : 172.16.1.1
+Fin de plage IP disponible : 172.16.1.62
+Adresse de broadcast : 172.16.1.63
+
+sous réseau pole développement (12): 2²4 - 2 = 16 - 2 = 14
+
+Adresse de réseau : 172.16.1.64/24
+Début de plage IP disponible : 172.16.1.65
+Fin de plage IP disponible : 172.16.1.78
+Adresse de broadcast : 172.16.1.79
+
+
+sous réseau pole administratif (20): 2²5 - 2 = 32 - 2 = 30
+
+Adresse de réseau : 172.16.1.80/25
+Début de plage IP disponible : 172.16.1.81
+Fin de la plage IP disponible : 172.16.1.110
+Adresse de broadcast : 172.16.1.111
+
+sous réseau pole technicien (15): 2²4 - 2 = 16 - 2 = 14
+
+Adresse de réseau : 172.16.1.112/16
+Début de plage IP disponible : 172.16.1.113
+Fin de la plage IP disponible : 172.16.1.126
+Adresse de broadcast : 172.16.1.127
+
